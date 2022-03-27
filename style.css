@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.main-body{
+    display: flex;
+    border: 1px, solid, red;
+}
+.menubar{
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.nav-item{
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    
+}
+
+.nav-item .nav-link{
+    color:white;
+}
+
+.nav-item .nav-link:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-item .nav-link:hover{
+    color: black;
+}
+
+.nav-item .nav-link:hover:before{
+    right: 0;
+}
+
+.nav-item .nav-link:hover:after{
+    left: 0;
+}
+
+.content{
+    display: flex;
+    border: 1px solid red;
+}
+
+
+
+
