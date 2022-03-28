@@ -74,5 +74,15 @@
     border-radius: 50%;
 }
 
+span.input-icon{
+    color: cyan;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+}
+
+.footer-links .nav-link:hover{
+    font-size: larger;
+}
 
 
