@@ -21,6 +21,11 @@
     text-transform: uppercase;
     position: flex;
     justify-content: center;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 .navbar-brand{
@@ -38,22 +43,20 @@
 }
 
 .nav-item .nav-link:before{
-    content: '';
+    content: ' ';
     position: absolute;
     top: 0;
     right: 100%;
-    width: 50%;
     height: 2px;
     background-color: black;
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .nav-item .nav-link::after{
-    content: '';
+    content: ' ';
     position: absolute;
     bottom: 0;
     right: 100%;
-    width: 50%;
     height: 2px;
     background-color: black;
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -65,10 +68,12 @@
 
 .nav-item .nav-link:hover:before{
     right: 0;
+    width: 50%;
 }
 
 .nav-item .nav-link:hover:after{
     left: 0;
+    width: 50%;
 }
 
 .img-ryan{
