@@ -63,6 +63,10 @@
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+#index-main {
+    padding-bottom: 19%;
+}
+
 .nav-item .nav-link:hover{
     color: black;
 }
