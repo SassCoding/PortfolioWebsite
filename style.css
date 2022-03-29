@@ -76,6 +76,12 @@
     clip-path: circle();
     border: .3rem solid cyan;
     border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.img-ryan:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 10px 15px rgb(255, 255, 255);
 }
 
 span.input-icon{
@@ -85,8 +91,21 @@ span.input-icon{
     margin: 0 0 13px;
 }
 
+.footer-links .nav-link{
+    color: cyan;
+}
 .footer-links .nav-link:hover{
-    font-size: larger;
+    color: white;
+
+}
+
+#card-git, #card-linked, #card-email{
+    transition: 0.5s ease;
+}
+
+#card-git:hover, #card-linked:hover, #card-email:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 15px rgb(255, 255, 255);
 }
 
 
