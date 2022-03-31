@@ -68,8 +68,12 @@
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#index-main {
-    padding-bottom: 19%;
+#git-icon:hover, #linkedin-icon:hover{
+    color: white;
+}
+
+#git-icon, #linkedin-icon{
+    color: cyan;    
 }
 
 .nav-item .nav-link:hover{
